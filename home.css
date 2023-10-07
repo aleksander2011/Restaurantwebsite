@@ -5,14 +5,14 @@
 .nav-flex-row {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: right;
 	position: relative;
 	align-items: center;
 	z-index: 100;
 	left: 0;
 	width: 100%;
 	padding: 0;
-	background-color: #ffffff;
+	background-color: #0a0a0a;
 }
 
 .nav-flex-row li {
@@ -31,17 +31,18 @@
 	
 }
 .nav-flex-row li a:hover{
-	background: #E7E7E7;
+	background: #100f0f;
 }
 
 .section-intro {
-	height: 820px;
-	background-image: url(img/foddiee.png);
+	height: 800px;
+	background-image: url(assets/cover.jpg);
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	background-color: #000;
 }
 
 .section-intro h1 {
@@ -94,7 +95,14 @@ a.link-to-book:hover {
 }
 
 .carousel-inner {
-	height: 700px;
+	height: 420px;
+	
+}
+.carousel-item active{
+	display: flex;
+	flex-direction: row;
+	margin-top: 0%;
+
 }
 
 .row-flex {
@@ -139,7 +147,7 @@ a.link-to-book:hover {
 	display: block;
 }
 
-@media (min-width:577px) and (max-width: 800px) {
+@media (min-width:500px) and (max-width: 800px) {
 
 	.section-intro {
 		height: 500px;
